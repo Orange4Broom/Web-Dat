@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.boxlist {
+  max-width: 1400px;
+
+  
+  margin: 0 auto;
+  padding: 1rem;
+
+  border-radius: 10px;
+  
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-template-rows: auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  height: auto;
+  max-width: 200px;
+  width: 100%;
+
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.384);
+
+  padding: 1rem;
+  transition: 0.2s;
+
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26);;
+}
+
+.box:hover {
+  scale: 108%;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  height: 20px;
+  width: 15px;
+
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.likeButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+  height: 20px;
+  width: 20px;
+
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 156px;
+  max-width: 200px;
+  width: 100%;
+
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.384);
+
+  padding: 1rem;
+  transition: 0.2s;
+
+  font-size: 24px;
+
+
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.26);;
+}
+
+.container:hover {
+  scale: 106%;
+}
